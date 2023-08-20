@@ -1,6 +1,7 @@
 version: "3"
 services:
   pa:
+    image: xanderxaj/planetary-annihilation-server
     build: .
     user: 1000:1000
     env_file:
