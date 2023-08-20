@@ -65,3 +65,11 @@ cosign verify --certificate-oidc-issuer 'https://token.actions.githubusercontent
 
 [cosign]: https://github.com/sigstore/cosign
 [fulcio]: https://github.com/sigstore/fulcio
+
+## Development
+
+Build the image using Docker Compose:
+
+```shell
+docker compose up --build
+```
