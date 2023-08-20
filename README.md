@@ -53,7 +53,7 @@ Your directories on the host do **not** need to be world-writable -- merely writ
 
 ## Security
 
-The image is automatically rebuilt every day to ensure the latest versions of MiniUPnPc and the base image are pulled in.
+The image is automatically rebuilt every day to ensure the latest versions of base images and dependencies are pulled in.
 
 The images are signed using [Cosign][cosign] and the [Fulcio public CA][fulcio].
 The images can be verified by running:
