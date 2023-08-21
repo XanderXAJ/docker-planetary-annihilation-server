@@ -2,7 +2,7 @@ name: Publish Container Image (Docker Hub)
 
 on:
   schedule:
-    - cron: '41 2 * * *'
+    - cron: '41 3 * * *'
   push:
     branches: [ "main" ]
     # Publish semver tags as releases.
