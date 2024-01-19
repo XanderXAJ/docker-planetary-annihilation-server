@@ -21,7 +21,7 @@ exec "$PA_PATH/server/stable/server" \
 	--replay-timeout 180 \
 	--gameover-timeout 600 \
 	--empty-timeout 3600 \
-	--server-name "SweetFA" \
+	--server-name "$SERVER_NAME" \
 	--server-password "$SERVER_PASSWORD" \
 	--max-players 8 \
 	--max-spectators 2 \
